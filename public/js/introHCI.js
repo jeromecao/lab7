@@ -11,3 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	// your code here
 }
+
+$(".project button").click(function(e) {
+	ga("send", "event", "like", "click");
+});
